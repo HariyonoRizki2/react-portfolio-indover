@@ -13,7 +13,7 @@ const Contact = () => {
         className="title"
       >
             <span>get in touch</span>
-            <h1>Contact Me</h1>
+            <h1>Hubungi Aku</h1>
       </motion.div>
       <div className="contact_form">
         <motion.div
@@ -52,22 +52,22 @@ const Contact = () => {
         >
           <h3>Get In Touch</h3>
           <div className="row">
-            <input type="text" placeholder='First Name' />
-            <input type="text" placeholder='Last name'/>
+            <input type="text" placeholder='Nama Depan' />
+            <input type="text" placeholder='Nama Belakang'/>
           </div>
           <div className="row">
-            <input type="text" placeholder='Phone' />
-            <input type="email" placeholder='Email' />
+            <input type="text" placeholder='Nomor Whatsapp' />
+            <input type="email" placeholder='Alamat Email' />
           </div>
           <div className="row">
-            <textarea placeholder='message'></textarea>
+            <textarea placeholder='Pesan'></textarea>
           </div>
           <motion.div
             whileHover={{ scale: 1.1 }}
             transition={{duration: 0.3}}
             className="btn"
           >
-            <a href="#">Send</a>
+            <a href="#">Kirim</a>
           </motion.div>
         </motion.div>
       </div>
