@@ -1,6 +1,6 @@
-import { FaHtml5, FaCss3, FaNodeJs, SiAdobephotoshop, FaReact, FaSass, SiSketchup, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaDribbble, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiSketchup, SiAdobephotoshop } from "react-icons/si";
 import portfolio from "./assets/portfolio.jpg"
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
