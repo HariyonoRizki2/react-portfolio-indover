@@ -15,10 +15,10 @@ const Footer = () => {
       className='footer'
     >
       <div className="copyright">
-        <p>Copyright&copy;2022 All rights reserved.Made by <span>Ye Lin Ko</span></p>
+        <p>Copyright &copy; 2022 - All rights reserved.</p>
       </div>
       <div className="followMe">
-        <h4>Follow Me</h4>
+        <h4>Ikuti Aku</h4>
         <div className="stick"></div>
         <div className="social_icons">
             {socialIcons.map((socialIcon, index) => {
