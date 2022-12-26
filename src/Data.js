@@ -105,13 +105,13 @@ export const workImages = [
     id: 4,
     img: work4,
     name: "project 4",
-    category: "app"
+    category: "bot"
   },
   {
     id: 5,
     img: work5,
     name: "project 5",
-    category: 'app'
+    category: 'bot'
   },
   {
     id: 6,
@@ -123,7 +123,7 @@ export const workImages = [
 
 
 export const workNavs = [
-  "All", "Web", "App", "Design"
+  "All", "Web", "Bot", "Design"
 ]
 
 export const contacts = [
