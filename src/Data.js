@@ -24,19 +24,19 @@ export const bios = [
     id: 1,
     icon: <FaUser />,
     key: "Name",
-    value: "Abeezarar"
+    value: "Hariyono Rizki"
   },
   {
     id: 2,
     icon: <FaPhoneAlt />,
     key: "Phone",
-    value: "+959883271929"
+    value: "+62 858-8378-9662"
   },
   {
     id: 3,
     icon: <FaPaperPlane />,
     key: "Email",
-    value: "abee02@gmail.com"
+    value: "contact@kiki-id.tk"
   }
 ]
 
@@ -132,16 +132,16 @@ export const contacts = [
   {
     id: 1,
     icon: <FaMapMarkerAlt />,
-    infoText: "16 Road, TharKayTa , Yangon"
+    infoText: "Mojokerto, East Java, Indonesia 61363"
   },
   {
     id: 2,
     icon: <FaPaperPlane />,
-    infoText: "abee02@gmail.com"
+    infoText: "contact@kiki-id.tk"
   },
   {
     id: 3,
     icon: <FaPhoneAlt />,
-    infoText: "+959-883-271-929"
+    infoText: "+62 858-8378-9662"
   }
 ]
