@@ -33,9 +33,9 @@ const Home = () => {
         <img src={portfolio} alt="portfolio" />
       </div>
       <div className="profile_text">
-        <h3 className='name'>Hi, I'm <span>Abee Zarar</span> </h3>
-        <span className='job'>Web Developer Based on Myanmar</span>
-        <span className='text'>Passionate<br /> to craft innovative <br />  web products.</span>
+        <h3 className='name'>Hi, I'm <span>Hariyono Rizki</span> </h3>
+        <span className='job'>Based on Indonesia</span>
+        <span className='text'>Passionate<br /> to craft innovative.</span>
         <motion.a
           href="#contact"
           whileHover={{ scale: 1.1 }}
@@ -52,7 +52,7 @@ const Home = () => {
         <div
           className="ui"
         >
-          UI/UX Designer
+          Photo Editor
         </div>
         <div
           className="freelance"
