@@ -64,7 +64,7 @@ const Portfolio = () => {
             <div className="workImage"
              key={work.id}
             >
-              <img src={work.img} alt="workImg" />
+              <img src={work.img} alt={work.name} />
               <motion.div
                 initial={{opacity: 0}}
                 whileHover={{ opacity: [0, 1] }}
@@ -72,15 +72,7 @@ const Portfolio = () => {
                 className='hoverLayer'
               >
                   
-                <motion.a href='#'
-                whileInView={{scale: [0,1]}}
-                 whileHover={{scale: [1, 1.1]}}
-                 transition={{duration: 0.3}}
-                >
-                  <FiGithub />
-                </motion.a>
-                  
-                <motion.a href='#'
+                <motion.a href={work.url}
                 whileInView={{scale: [0,1]}}
                  whileHover={{scale: [1, 1.1]}}
                  transition={{duration: 0.3}}
