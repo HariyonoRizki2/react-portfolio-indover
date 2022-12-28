@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaNodeJs, FaReact, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaInstagram, FaLinkedin, FaTwitter, FaDiscord, FaTelegram, FaWhatsapp, FaCpanel } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaNodeJs, FaUser, FaMapMarkerAlt, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { SiTypescript, SiSketchup, SiAdobephotoshop, SiJavascript, SiGmail } from "react-icons/si";
 import portfolio from "./assets/portfolio.jpg"
 import work1 from "./assets/work1.png";
@@ -25,19 +25,19 @@ export const bios = [
   },
   {
     id: 2,
-    icon: <FaPhoneAlt />,
-    key: "Phone",
-    value: "+62 858-8378-9662"
+    icon: <FaWhatsapp />,
+    key: "Whatsapp",
+    value: "+6285883789662"
   },
   {
     id: 3,
-    icon: <FaPaperPlane />,
+    icon: <FaGmail />,
     key: "Email",
     value: "contact@kiki-id.tk"
   }
 ]
 
-export const icons = [<FaHtml5 />, <FaCss3Alt />, <SiJavascript />, <FaReact />, <FaNodeJs />, <SiSketchup />, <SiAdobephotoshop />, <FaDiscord />, <FaTelegram />, <FaWhatsapp />, <FaCpanel />]
+export const icons = [<FaHtml5 />, <FaCss3Alt />, <SiJavascript />, <FaNodeJs />, <SiSketchup />, <SiAdobephotoshop />]
 
 export const experiences = [
   {
@@ -138,7 +138,7 @@ export const contacts = [
   },
   {
     id: 3,
-    icon: <FaPhoneAlt />,
-    infoText: "+62 858-8378-9662"
+    icon: <FaWhatsapp />,
+    infoText: "+6285883789662"
   }
 ]
