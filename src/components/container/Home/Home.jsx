@@ -35,7 +35,7 @@ const Home = () => {
       <div className="profile_text">
         <h3 className='name'>Hi, I'm <span>Hariyono Rizki</span> </h3>
         <span className='job'>Based on Indonesia</span>
-        <span className='text'>Passionate<br /> to craft innovative.</span>
+        <span className='text'>Passionate<br /> to craft and inovate.</span>
         <motion.a
           href="#contact"
           whileHover={{ scale: 1.1 }}
