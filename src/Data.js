@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaNodeJs, FaUser, FaMapMarkerAlt, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaNodeJs, FaUser, FaGmail, FaMapMarkerAlt, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { SiTypescript, SiSketchup, SiAdobephotoshop, SiJavascript, SiGmail } from "react-icons/si";
 import portfolio from "./assets/portfolio.jpg"
 import work1 from "./assets/work1.png";
