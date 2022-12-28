@@ -1,6 +1,5 @@
-import { FaHtml5, FaCss3, FaNodeJs, FaReact, FaSass, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaInstagram, FaLinkedin, FaTwitter, FaDiscord, FaTelegram, FaWhatsapp, FaCpanel } from "react-icons/fa";
-import { DiJavascript } from "react-icons/di";
-import { SiTypescript, SiSketchup, SiAdobephotoshop, SiJavascript } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaNodeJs, FaReact, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaInstagram, FaLinkedin, FaTwitter, FaDiscord, FaTelegram, FaWhatsapp, FaCpanel } from "react-icons/fa";
+import { SiTypescript, SiSketchup, SiAdobephotoshop, SiJavascript, SiGmail } from "react-icons/si";
 import portfolio from "./assets/portfolio.jpg"
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
@@ -38,7 +37,7 @@ export const bios = [
   }
 ]
 
-export const icons = [<FaHtml5 />, <FaCss3 />, <SiJavascript />, <FaReact />, <FaNodeJs />, <SiSketchup />, <SiAdobephotoshop />, <FaDiscord />, <FaTelegram />, <FaWhatsapp />, <FaCpanel />]
+export const icons = [<FaHtml5 />, <FaCss3Alt />, <SiJavascript />, <FaReact />, <FaNodeJs />, <SiSketchup />, <SiAdobephotoshop />, <FaDiscord />, <FaTelegram />, <FaWhatsapp />, <FaCpanel />]
 
 export const experiences = [
   {
@@ -50,8 +49,8 @@ export const experiences = [
   {
     di: 2,
     year: "2021",
-    position: "Junior Web Developer",
-    company: "shop.com.mm"
+    position: "Freelance",
+    company: "GitHub Contributors"
   },
   {
     id: 3,
@@ -63,7 +62,7 @@ export const experiences = [
 export const finishes = [
   {
     id: 1,
-    number: '2+',
+    number: '3+',
     itemName: "Years Of Experience"
   },
   {
@@ -134,7 +133,7 @@ export const contacts = [
   },
   {
     id: 2,
-    icon: <FaPaperPlane />,
+    icon: <SiGmail />,
     infoText: "contact@kiki-id.tk"
   },
   {
