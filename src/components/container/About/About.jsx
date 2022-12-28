@@ -34,7 +34,7 @@ const About = () => {
           transition={{ duration: 1 }}
         >
 
-          <p>Hello!, Introducing Me <strong>Hariyono Rizki</strong>, My current status is as a Vocational High School Student taking Multimedia Vocational Subjects, you can see my Resume for more details </p>
+          <p>Hello!, Introducing Me <strong>Hariyono Rizki</strong>. My current status is as a Vocational High School Student, taking Multimedia Vocational Subjects. you can see my Resume for more details</p>
 
           <motion.a href='' download=""
             whileHover={{ scale: 1.1 }}
