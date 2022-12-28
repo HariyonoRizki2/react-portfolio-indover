@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaNodeJs, FaUser, FaMapMarkerAlt, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
-import { SiTypescript, SiSketchup, SiAdobephotoshop, SiJavascript, SiGmail } from "react-icons/si";
+import { SiTypescript, SiSketchup, SiAdobephotoshop, SiJavascript, SiGmail, SiPhp, SiMongodb } from "react-icons/si";
 import portfolio from "./assets/portfolio.jpg"
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
@@ -37,7 +37,7 @@ export const bios = [
   }
 ]
 
-export const icons = [<FaHtml5 />, <FaCss3Alt />, <SiJavascript />, <FaNodeJs />, <SiSketchup />, <SiAdobephotoshop />]
+export const icons = [<FaHtml5 />, <FaCss3Alt />, <SiJavascript />, <SiPhp />, <SiMongodb />, <FaNodeJs />, <SiSketchup />, <SiAdobephotoshop />]
 
 export const experiences = [
   {
