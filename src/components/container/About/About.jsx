@@ -3,7 +3,7 @@ import "./About.scss";
 
 import { motion } from 'framer-motion';
 import { bios } from '../../../Data';
-import portfolio from "../../../assets/portfolio.jpg"
+import portfolio from "../../../assets/img2.jpg"
 const About = () => {
 
 
@@ -43,7 +43,7 @@ const About = () => {
               </div>
             )
           })}
-          <motion.a href='#' download=""
+          <motion.a href='' download=""
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >
