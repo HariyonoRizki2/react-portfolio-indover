@@ -51,24 +51,27 @@ const Contact = () => {
         
         >
           <h3>Get In Touch</h3>
+          <form method="POST" action="https://formsubmit.co/nabilaputridwianjani526@gmail.com">
           <div className="row">
-            <input type="text" placeholder='Front Name' />
-            <input type="text" placeholder='Last Name'/>
+            <input type="text" name="Front Name" placeholder='Front Name' />
+            <input type="text" name="Last Name" placeholder='Last Name'/>
           </div>
           <div className="row">
-            <input type="text" placeholder='Whatsapp' />
-            <input type="email" placeholder='Email Address' />
+            <input type="text" name="WhatsApp" placeholder='Whatsapp' />
+            <input type="email" name="Email Address" placeholder='Email Address' />
           </div>
           <div className="row">
-            <textarea placeholder='Messages'></textarea>
+            <textarea name="Messages" placeholder='Messages'></textarea>
           </div>
-          <motion.div
+          <motion.button
             whileHover={{ scale: 1.1 }}
             transition={{duration: 0.3}}
             className="btn"
+            type="submit"
           >
-            <a href="#">Kirim</a>
-          </motion.div>
+           Kirim
+          </motion.button>
+         </form>
         </motion.div>
       </div>
     </div>
