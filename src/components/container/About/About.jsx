@@ -34,15 +34,8 @@ const About = () => {
           transition={{ duration: 1 }}
         >
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae at rem, tenetur ad ipsa sequi, optio eius laudantium vero minus maxime laborum est et nemo consequatur nostrum distinctio sed, nulla doloribus officiis ea eligendi explicabo.</p>
-          {bios.map(bio => {
-            return (
-              <div className="bio" key={bio.id}>
-                <span className='bioKey'>{bio.icon}{bio.key}</span>
-                <span className='bioValue'>{bio.value}</span>
-              </div>
-            )
-          })}
+          <p>Hello!, Introducing Me <strong>Hariyono Rizki</strong>, My current status is as a Vocational High School Student taking Multimedia Vocational Subjects, you can see my Resume for more details </p>
+
           <motion.a href='' download=""
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
