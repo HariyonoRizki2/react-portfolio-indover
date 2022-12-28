@@ -69,7 +69,7 @@ const Contact = () => {
             className="btn"
             type="submit"
           >
-           Kirim
+           Send
           </motion.button>
          </form>
         </motion.div>
