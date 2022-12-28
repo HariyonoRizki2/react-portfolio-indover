@@ -8,7 +8,7 @@ const Footer = () => {
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{
-        opacity:
+        opacity: onok
           1
       }}
       transition={{duration: 1.5}}
@@ -18,7 +18,7 @@ const Footer = () => {
         <p>Copyright &copy; 2022 - All rights reserved.</p>
       </div>
       <div className="followMe">
-        <h4>Ikuti Aku</h4>
+        <h4>Follow Me</h4>
         <div className="stick"></div>
         <div className="social_icons">
             {socialIcons.map((socialIcon, index) => {
