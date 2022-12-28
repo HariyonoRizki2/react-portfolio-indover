@@ -13,7 +13,7 @@ const Skills = () => {
         whileInView={{y: [-50, 0], opacity: 1}}  
         className="title"
       >
-        <span>What I Expert?</span>
+        <span>What Am I Good At?</span>
         <h1>Skills And Experience</h1>
       </motion.div>
       <motion.div
