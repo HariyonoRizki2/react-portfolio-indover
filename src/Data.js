@@ -7,6 +7,7 @@ import work3 from "./assets/work3.png";
 import work4 from "./assets/work4.png";
 import work5 from "./assets/work5.png";
 import work6 from "./assets/work6.png";
+import dev1 from "./assets/dev1.png";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
@@ -84,42 +85,42 @@ export const finishes = [
 export const workImages = [
   {
     id: 1,
-    img: work1,
+    img: dev1,
     name: "project 1",
     category: "web",
     url: "https://kiki-id.tk"
   },
   {
     id: 2,
-    img: work2,
+    img: dev1,
     name: "project 2",
     category: "web",
     url: "https://wukomarosa.tk/portofolio"
   },
   {
     id: 3,
-    img: work3,
+    img: dev1,
     name: "project 3",
     category: "web",
     url: "#"
   },
   {
     id: 4,
-    img: work4,
+    img: dev1,
     name: "project 4",
     category: "bot",
     url: "#"
   },
   {
     id: 5,
-    img: work5,
+    img: dev1,
     name: "project 5",
     category: 'bot',
     url: "#"
   },
   {
     id: 6,
-    img: work6,
+    img: dev1,
     name: "project 6",
     category: "design",
     url: "#"
