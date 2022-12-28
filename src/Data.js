@@ -87,36 +87,42 @@ export const workImages = [
     img: work1,
     name: "project 1",
     category: "web"
+    url: "https://kiki-id.tk"
   },
   {
     id: 2,
     img: work2,
     name: "project 2",
     category: "web"
+    url: "https://wukomarosa.tk/portofolio"
   },
   {
     id: 3,
     img: work3,
     name: "project 3",
     category: "web"
+    url: "#"
   },
   {
     id: 4,
     img: work4,
     name: "project 4",
     category: "bot"
+    url: "#"
   },
   {
     id: 5,
     img: work5,
     name: "project 5",
     category: 'bot'
+    url: "#"
   },
   {
     id: 6,
     img: work6,
     name: "project 6",
     category: "design"
+    url: "#"
   }
 ]
 
