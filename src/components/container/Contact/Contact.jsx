@@ -13,7 +13,7 @@ const Contact = () => {
         className="title"
       >
             <span>get in touch</span>
-            <h1>Hubungi Aku</h1>
+            <h1>Contact Me</h1>
       </motion.div>
       <div className="contact_form">
         <motion.div
@@ -22,7 +22,7 @@ const Contact = () => {
           transition={{duration: 1}}
           className='contact_left_container'>
           <h3>Just Say Hi</h3>
-          <p className='contact_text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nihil unde atque voluptates, cumque molestias eveniet voluptatum animi consectetur magni mollitia dolor exercitationem labore maiores!</p>
+          <p className='contact_text'>Let's talk briefly about your project design with me!</p>
           {contacts.map(contact => {
             return (
               <div className='contact_left' key={contact.id}>
@@ -52,15 +52,15 @@ const Contact = () => {
         >
           <h3>Get In Touch</h3>
           <div className="row">
-            <input type="text" placeholder='Nama Depan' />
-            <input type="text" placeholder='Nama Belakang'/>
+            <input type="text" placeholder='Front Name' />
+            <input type="text" placeholder='Last Name'/>
           </div>
           <div className="row">
-            <input type="text" placeholder='Nomor Whatsapp' />
-            <input type="email" placeholder='Alamat Email' />
+            <input type="text" placeholder='Whatsapp' />
+            <input type="email" placeholder='Email Address' />
           </div>
           <div className="row">
-            <textarea placeholder='Pesan'></textarea>
+            <textarea placeholder='Messages'></textarea>
           </div>
           <motion.div
             whileHover={{ scale: 1.1 }}
