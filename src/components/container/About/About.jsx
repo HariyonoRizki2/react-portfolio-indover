@@ -34,7 +34,7 @@ const About = () => {
           transition={{ duration: 1 }}
         >
 
-          <p>Hai, Perkenalkan aku <strong>Hariyono Rizki</strong>. Status Saya saat ini adalah sebagai Siswa Sekolah Menengah Kejuruan, mengambil Mata Kejuruan Multimedia. Kamu dapat melihat Resume Saya untuk info lebih lanjut.</p>
+          <p>Halo!, Perkenalkan Saya <strong>Hariyono Rizki</strong>, Status Saya saat ini yakni sebagai seorang Pelajar tingkat SMK dengan mengambil Mata Kejuruan Multimedia, Anda dapat melihat Resume Saya lebih lanjut pada Resume Saya.</p>
 
           <motion.a href='' download=""
             whileHover={{ scale: 1.1 }}
