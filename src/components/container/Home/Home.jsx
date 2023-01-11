@@ -33,16 +33,16 @@ const Home = () => {
         <img src={portfolio} alt="portfolio" />
       </div>
       <div className="profile_text">
-        <h3 className='name'>Hi, I'm <span>Hariyono Rizki</span> </h3>
-        <span className='job'>Based on Indonesia</span>
-        <span className='text'>Passionate<br /> to craft and inovate.</span>
+        <h3 className='name'>Hai, Aku <span>Hariyono Rizki</span> </h3>
+        <span className='job'>Berbasis di Indonesia</span>
+        <span className='text'>Bersemangat<br /> untuk Berkreasi dan Berinovasi.</span>
         <motion.a
           href="#contact"
           whileHover={{ scale: 1.1 }}
           variants={moveVariants}
           animate="animation"
         >
-          connect with me</motion.a>
+          mari terhubung</motion.a>
         <div
           className="web"
 
@@ -52,7 +52,7 @@ const Home = () => {
         <div
           className="ui"
         >
-          Photo Editor
+          Editor Foto
         </div>
         <div
           className="freelance"
