@@ -13,8 +13,8 @@ const Skills = () => {
         whileInView={{y: [-50, 0], opacity: 1}}  
         className="title"
       >
-        <span>What Am I Good At?</span>
-        <h1>Skills And Experience</h1>
+        <span>apa yang saya kuasai?</span>
+        <h1>Kemampuan dan Pengalaman</h1>
       </motion.div>
       <motion.div
         initial={{opacity: 0}}
@@ -23,11 +23,11 @@ const Skills = () => {
       >
         <button
           onClick={() => setActive(1)}
-          className={active === 1 ? "active" : ""}>Skills</button>
+          className={active === 1 ? "active" : ""}>Kemampuan</button>
         <button
           onClick={() => setActive(2)}
           className={active === 2 ? "active" : ""}
-        >Experiences</button>
+        >Pengalaman</button>
       </motion.div>
       <motion.div
         initial={{opacity: 0}}
