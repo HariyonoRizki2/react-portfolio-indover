@@ -12,8 +12,8 @@ const Contact = () => {
         whileInView={{y: [-50, 0], opacity: 1}} 
         className="title"
       >
-            <span>get in touch</span>
-            <h1>Contact Me</h1>
+            <span>mari terhubung</span>
+            <h1>Hubungi Aku</h1>
       </motion.div>
       <div className="contact_form">
         <motion.div
@@ -21,8 +21,8 @@ const Contact = () => {
           whileInView={{ x: [-150,0], opacity: 1 }}
           transition={{duration: 1}}
           className='contact_left_container'>
-          <h3>Just Say Hi</h3>
-          <p className='contact_text'>Let's talk briefly about your project design with me!</p>
+          <h3>Hanya menyapa!</h3>
+          <p className='contact_text'>Mari bicara singkat tentang Rancangan Projek Anda bersama Saya!</p>
           {contacts.map(contact => {
             return (
               <div className='contact_left' key={contact.id}>
@@ -50,18 +50,18 @@ const Contact = () => {
           className="contact_right"
         
         >
-          <h3>Get In Touch</h3>
+          <h3>Lebih Terhubung</h3>
           <form method="POST" action="https://formsubmit.co/nabilaputridwianjani526@gmail.com">
           <div className="row">
-            <input type="text" name="Front Name" placeholder='Front Name' />
-            <input type="text" name="Last Name" placeholder='Last Name'/>
+            <input type="text" name="Front Name" placeholder='Nama Depan' />
+            <input type="text" name="Last Name" placeholder='Nama Belakang'/>
           </div>
           <div className="row">
-            <input type="text" name="WhatsApp" placeholder='Whatsapp' />
-            <input type="email" name="Email Address" placeholder='Email Address' />
+            <input type="text" name="WhatsApp" placeholder='Nomor Whatsapp' />
+            <input type="email" name="Email Address" placeholder='Alamat Email' />
           </div>
           <div className="row">
-            <textarea name="Messages" placeholder='Messages'></textarea>
+            <textarea name="Messages" placeholder='Pesan'></textarea>
           </div>
           <motion.button
             whileHover={{ scale: 1.1 }}
@@ -69,7 +69,7 @@ const Contact = () => {
             className="btn"
             type="submit"
           >
-           Send
+           Kirim
           </motion.button>
          </form>
         </motion.div>
