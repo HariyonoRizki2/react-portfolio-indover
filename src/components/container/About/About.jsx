@@ -13,8 +13,8 @@ const About = () => {
         initial={{ opacity: 0 }}
         whileInView={{ y: [-50, 0], opacity: 1 }}
         className="title">
-        <span>Who Am I?</span>
-        <h1>About Me</h1>
+        <span>siapa aku?</span>
+        <h1>Tentang Aku</h1>
       </motion.div>
 
       <div className="about_container">
@@ -34,13 +34,13 @@ const About = () => {
           transition={{ duration: 1 }}
         >
 
-          <p>Hello!, Introducing Me <strong>Hariyono Rizki</strong>. My current status is as a Vocational High School Student, taking Multimedia Vocational Subjects. you can see my Resume for more details</p>
+          <p>Hai, Perkenalkan aku <strong>Hariyono Rizki</strong>. Status Saya saat ini adalah sebagai Siswa Sekolah Menengah Kejuruan, mengambil Mata Kejuruan Multimedia. Kamu dapat melihat Resume Saya untuk info lebih lanjut.</p>
 
           <motion.a href='' download=""
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >
-            Download Resume
+           Unduh Resume
           </motion.a>
         </motion.div>
 
