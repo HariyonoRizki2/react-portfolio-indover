@@ -35,8 +35,8 @@ const Portfolio = () => {
         className="title"
       
       >
-            <span>My Work</span>
-            <h1>Awesome Projects</h1>
+            <span>Hasil Kerjaku</span>
+            <h1>Projek Luar biasa</h1>
       </motion.div>
       <motion.div
         initial={{opacity: 0}}
@@ -91,7 +91,7 @@ const Portfolio = () => {
         className="talk"
       >
         <div className="talk_left">
-          <h3>so let's talk about <br /> <span>your next projects</span></h3>
+          <h3>mari bicara tentang <br /> <span>projekmu selanjutnya</span></h3>
         </div>
         <motion.div
           whileHover={{ scale: 1.1 }}
@@ -99,7 +99,7 @@ const Portfolio = () => {
           className="talk_right">
           <a href="#contact"
           >
-            Contact Me
+            Hubungi Aku
           </a>
         </motion.div>
       </motion.div>
